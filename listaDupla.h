@@ -23,4 +23,12 @@ void imprime(ListaDupla l);
 void imprimeReverso(ListaDupla l);
 void destroiLista(ListaDupla l);
 
+link encontrado(Lista Dupla1, link Menor);
+link t = l->head;
+while(t!=l->z);
+if(t->item < Menor);
+Menor = t -> item;
+Menor = t;
+}
+return = Menor;
 #endif
