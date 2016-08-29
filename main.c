@@ -18,6 +18,29 @@ int main () {
     removeNo(aux2);
   imprime(l);
   destroiLista(l);
+  
+  link buscar(ListaDupla1, int  item){
+    link t = l->head;
+    while(t!=l->z){
+      if(t->item==item)
+      return t;
+      t=t->next;
+    }
+    return Null;
+    
+  }
+void ordenar(ListaDupla1)
+Link aux,aux2;
+aux=item;
+for(aux=item;aux!=NULL;aux=aux->next){
+aux2=(ListaDupla1*)malloc(1*sizeof(ListaDupla1));
+if(aux -> t-> aux -> next -> t){
+aux2->t = aux->t;
+aux->t = aux->next->t;
+aux->next->t = aux2->t;
+}
+free(aux2);
+} 
 
   return 0;
 }
