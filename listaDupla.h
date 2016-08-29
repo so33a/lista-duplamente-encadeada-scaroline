@@ -23,7 +23,7 @@ link removeNo (link x);
 void imprime(ListaDupla l);
 void imprimeReverso(ListaDupla l);
 void destroiLista(ListaDupla l);
-void ordena();
+void ordena(ListaDupla1);
 link encontrado(ListaDupla1);
 
 
